@@ -200,6 +200,7 @@ body {
   background-color: white;
   border-style: outset;
   border-width: 5px;
+  margin-top: 20px;
 }
 
 .cta-btn {
@@ -221,6 +222,16 @@ body {
   border-style: dotted;
   border-color: rgb(251, 251, 251);
   border-width: 2px;
+  box-shadow: 8px 34px 61px 5px rgba(164, 156, 156, 0.75);
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cta-btn:hover {
+  box-shadow: 0 30px 40px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+
+  transform: scale(1.1);
 }
 
 .cert-wrap {
@@ -269,9 +280,9 @@ body {
   padding-right: 400px;
   line-height: 25px;
 
-  top: 50%; /* Adjust as needed */
+  top: 52%; /* Adjust as needed */
   left: 50%; /* Adjust as needed */
-  transform: translate(-30%, 1%);
+  transform: translate(-30%, 2%);
   z-index: 1; /* Ensure the text appears above the image */
 }
 
@@ -291,21 +302,20 @@ body {
   font-size: 45px;
 }
 
-.project-1{
+.project-1 {
   font-size: 30px;
-  font-family:  Rubik Doodle Shadow, Static;
+  font-family: Rubik Doodle Shadow, Static;
   color: aliceblue;
   border-width: 10px;
   border-color: aliceblue;
- 
-    border: 1px solid black; /* Ändra färg och tjocklek efter behov */
-    padding: 10px; /* Lägg till lite utrymme mellan texten och kanten om det behövs */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   align-items: center;
-   margin-left: 400px;
-   margin-right: 400px;
-   background-color:rgb(201, 87, 168);
-  }
-  
+
+  border: 1px solid black; /* Ändra färg och tjocklek efter behov */
+  padding: 10px; /* Lägg till lite utrymme mellan texten och kanten om det behövs */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: rgb(201, 87, 168);
+}
