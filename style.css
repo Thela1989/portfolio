@@ -290,3 +290,22 @@ body {
   justify-content: center;
   font-size: 45px;
 }
+
+.project-1{
+  font-size: 30px;
+  font-family:  Rubik Doodle Shadow, Static;
+  color: aliceblue;
+  border-width: 10px;
+  border-color: aliceblue;
+ 
+    border: 1px solid black; /* Ändra färg och tjocklek efter behov */
+    padding: 10px; /* Lägg till lite utrymme mellan texten och kanten om det behövs */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+   margin-left: 400px;
+   margin-right: 400px;
+   background-color:rgb(201, 87, 168);
+  }
+  
