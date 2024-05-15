@@ -1,4 +1,5 @@
 {
-    "prettier.enable": true,
-    "prettier.singleAttributePerLine": true
+  "prettier.enable": true,
+  "prettier.singleAttributePerLine": true,
+  "liveServer.settings.port": 5502
 }
