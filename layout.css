@@ -1,0 +1,58 @@
+body {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.second {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cta-container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flowerai {
+  padding-top: 40px;
+}
