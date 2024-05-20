@@ -4,7 +4,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0;
 }
 
 .wrapper {
@@ -14,7 +13,22 @@ body {
 
 .header {
   width: 100%;
-  
+}
+.head-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  border-color: aquamarine;
 }
 
 .title {
@@ -23,6 +37,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 .main {
   display: flex;
   justify-content: center;
@@ -35,6 +50,22 @@ body {
 
   align-items: center;
   justify-content: center;
+}
+
+.profilepicture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 100px;
+  border-style: solid;
+  color: aliceblue;
   
 }
 
@@ -44,7 +75,11 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  
+  
 }
+
+
 
 .image-container {
   width: 100%;
@@ -55,4 +90,25 @@ body {
 
 .flowerai {
   padding-top: 40px;
+ 
+ 
+  
+  
+}
+
+.info-github{
+  height: 100px;
+  width: 400px;
+  border-style: ridge;
+  border-color: black;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+  
+
+h4{
+  padding-left:30px;
 }
