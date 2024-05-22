@@ -11,8 +11,8 @@
   font-family: "Josefin slab";
 
   padding: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-weight: bold;
   border: 5px;
   border-style: double;
@@ -26,28 +26,17 @@
 
 h4 {
   font-family: "JetBrains Mono", monospace;
-  color: aliceblue;
-  text-shadow: 4px 2px 0px rgba(0, 0, 0, 0.6);
-   display: flex;
+  color: rgb(8, 8, 8);
+
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5,
-.project-6,
-.project-7,
-.project-8 {
+.info-github {
   font-family: "JetBrains Mono", monospace;
   color: aliceblue;
-  text-shadow: 4px 2px 0px rgba(0, 0, 0, 0.6);
+ 
 
-  border-style: outset;
-  background-color: antiquewhite;
-  border-radius: 30px;
-  background-color: indianred;
   padding: 10px;
 }
