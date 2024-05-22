@@ -101,22 +101,58 @@ body {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   border-style: outset;
   border: 30px;
+  margin-top: 20px;
 }
 /*icon*/
 .github-picture {
   width: 100px;
   border-radius: 100px;
   padding-bottom: 15px;
+  margin-top: 20px;
 }
 
-.btn-gtb {
-  height: 100px;
-  width: 100px;
-  border-radius: 30px;
-  margin-bottom: 40px;
+/*text på knapp*/
+h4 {
+  height: 50px;
+  width: 500px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 200px;
+}
+
+/*här börjar css för CV */
+.cert-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.email {
+  margin-top: 20px;
+}
+.material-symbols-outlined {
+  margin-top: 20px;
+}
+
+.phone-icon {
+  width: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+}
+
+.call-icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
 }
