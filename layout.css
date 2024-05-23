@@ -13,7 +13,7 @@ body {
 /*huvudrubrik*/
 .header {
   width: 100%;
-  text-shadow: 3px 0px 0px rgba(255,255,255,0.6);
+  text-shadow: 3px 0px 0px rgba(255, 255, 255, 0.6);
 }
 .head-project {
   display: flex;
@@ -90,11 +90,42 @@ body {
   border: 30px;
 }
 
+/*Här är projekten*/
+.project-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
+.project-1,
+.project-2,
+.project-3 {
+  height: 50px;
+
+  margin: 0;
+}
+
+.projectlist-1,
+.project-list-2,
+.project-list-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-calc {
+  width: 40px;
+  height: 50px;
+}
+
+.image-photo {
+  width: 30px;
+}
 /*info om project*/
 .info-github {
   border-color: rgb(255, 251, 251);
-
 }
 
 /*bild project*/
@@ -161,16 +192,13 @@ h4 {
   height: 100px;
   display: flex;
   flex-direction: row;
-  margin-left:250px;
-  
+  margin-left: 250px;
 }
 .mail-icon {
- 
   width: 50px;
   height: 40px;
   display: flex;
   flex-direction: row;
-
 }
 
 .mail-text {
@@ -178,5 +206,4 @@ h4 {
   height: 100px;
   display: flex;
   flex-direction: row;
-  
 }
