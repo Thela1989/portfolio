@@ -10,9 +10,10 @@ body {
   height: 100%;
   width: 100%;
 }
-
+/*huvudrubrik*/
 .header {
   width: 100%;
+  text-shadow: 3px 0px 0px rgba(255,255,255,0.6);
 }
 .head-project {
   display: flex;
@@ -88,9 +89,12 @@ body {
   border-style: outset;
   border: 30px;
 }
+
+
 /*info om project*/
 .info-github {
   border-color: rgb(255, 251, 251);
+
 }
 
 /*bild project*/
@@ -133,13 +137,9 @@ h4 {
   align-items: center;
   flex-direction: column;
 }
+/*Här slutar css för cv*/
 
-.email {
-  margin-top: 20px;
-}
-.material-symbols-outlined {
-  margin-top: 20px;
-}
+/*Här börjar css för kontakt*/
 
 .phone-icon {
   width: 100px;
@@ -148,11 +148,35 @@ h4 {
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 200px;
+  height: 50px;
 }
 
 .call-icon {
   width: 20px;
   height: 20px;
   padding-right: 20px;
+}
+.email {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left:250px;
+  
+}
+.mail-icon {
+ 
+  width: 50px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.mail-text {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  
 }
