@@ -13,7 +13,7 @@ body {
 /*huvudrubrik*/
 .header {
   width: 100%;
-  text-shadow: 3px 0px 0px rgba(255, 255, 255, 0.6);
+  
 }
 .head-project {
   display: flex;
