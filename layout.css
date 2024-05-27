@@ -13,7 +13,6 @@ body {
 /*huvudrubrik*/
 .header {
   width: 100%;
-  
 }
 .head-project {
   display: flex;
@@ -56,38 +55,36 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.profile {
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-  border-radius: 100px;
-  border-style: solid;
-  color: aliceblue;
+  width: 300px;
+  height: 400px;
 }
 
 .cta-container {
-  padding-top: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 100px;
 }
 
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+.front-text {
+  
+  
+  margin: 10px;
+}
 .image-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-/*bild förstasidan*/
-.flowerai {
-  margin-top: 20px;
-  border-radius: 50px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  border-style: outset;
-  border: 30px;
 }
 
 /*Här är projekten*/

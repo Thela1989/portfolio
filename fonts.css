@@ -20,6 +20,18 @@
   font-family: "Fondamento", Static;
 }
 
+.text-container {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row899d8b;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#last-letterr {
+  color: #899d8b;
+}
+
 .aboutme-text {
   font-size: 18px;
   font-family: "Josefin slab";
@@ -37,7 +49,6 @@
 
 h4 {
   font-family: "Chakra Petch", Static;
-  
 
   display: flex;
   justify-content: center;
@@ -50,7 +61,6 @@ h4 {
   padding: 10px;
 }
 
-
-.cta-btn{
-  color:  #AAA190;
+.cta-btn {
+  color: #aaa190;
 }
