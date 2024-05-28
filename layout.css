@@ -12,6 +12,7 @@ body {
   height: 100%;
   width: 100%;
   
+  
 
 }
 /*huvudrubrik*/
@@ -44,7 +45,12 @@ body {
 
 }
 
+.picture-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
 
   
 
@@ -69,7 +75,11 @@ body {
 .profile-aboutme{
   width: 200px;
   height: 200px;
-
+  margin-top: 20px;
+  border-radius: 99px;
+  border-style: double;
+  border-color: #8da28e;
+  border-width: thick;
 }
 .cta-container {
   display: flex;

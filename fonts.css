@@ -11,7 +11,7 @@
   font-family: "Fondamento", Static;
 }
 .header {
-  color: #ffffff;
+  color: #8da28e;
 
   text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.6);
 }
@@ -52,6 +52,7 @@
   margin-left: 50px;
   margin-right: 50px;
   font-weight: bold;
+  color: 8da28e;
 }
 .head-project {
   font-family: "JetBrains Mono", monospace;
@@ -65,13 +66,11 @@
 
   font-size: 30px;
   font-family: "Cutive Mono", Static;
-  color: #ffffff;
-  text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.6);
+  color: #8da28e;
+
   font-weight: bold;
 }
-.highlight {
-  color:#ffffff;
-}
+
 
 h4 {
   font-family: "Chakra Petch", Static;
