@@ -85,7 +85,7 @@ body {
   justify-content: center;
 }
 
-.image-container {
+.image-container-fron {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,8 +120,13 @@ body {
 /*icon*/
 .icon {
   width: 200px;
-  height: 200px;
-  
+  margin-top: 40px;
+
+  /*
+  box-shadow: -2px 3px 71px 18px rgba(0,0,0,0.75);*/
+}
+#todo-icon {
+  padding-bottom: 40px;
 }
 
 /*text på knapp*/
@@ -134,30 +139,65 @@ body {
   flex-direction: column;
 }
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-right: 30px;
 }
+
+.Certifikat {
+  width: 280px;
+
+  border: outset 10px;
+}
+
 /*Här slutar css för cv*/
 
 /*Här börjar css för kontakt*/
 
-.phone-icon {
-  width: 100px;
+.contact-container {
+  width: 300px;
+  height: 500px;
 
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .div3 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+}
+
+.contact-card {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 50px;
+  height: 270px;
+  background-color: aliceblue;
+  border: solid #8da28e;
 }
-
+.contact-text {
+}
+.icons {
+  width: 100px;
+}
 .call-icon {
   width: 20px;
   height: 20px;
-  padding-right: 20px;
+  padding-top: 200px;
 }
+
 .email {
   width: 400px;
   height: 100px;
@@ -178,4 +218,3 @@ body {
   display: flex;
   flex-direction: row;
 }
-

@@ -63,11 +63,12 @@
   justify-content: center;
   align-items: center;
 
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Cutive Mono", Static;
   color: #8da28e;
+  font-weight: bolder;
 
-  font-weight: bold;
+  
 }
 
 /*rubrik för projekten*/
@@ -99,4 +100,23 @@ h4 {
 .project-text {
   font-size: 18px;
   font-family: "Chakra Petch", Static;
+}
+
+/*CV*/
+.cert-frame {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 20px;
+  color: #8da28e;
+  text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+/*contact*/
+.contact-text {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.contact-name {
+  font-family: "Fondamento", Static;
+  font-size: 20px;
 }
