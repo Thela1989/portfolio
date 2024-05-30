@@ -11,10 +11,9 @@ body {
 .wrapper {
   height: 100%;
   width: 100%;
-
 }
 
-.wrap-wrap{
+.wrap-wrap {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -122,6 +121,8 @@ body {
   border-style: ridge;
 }
 
+
+
 /*bild project*/
 
 /*icon*/
@@ -164,8 +165,7 @@ body {
 
 /*Här börjar css för kontakt*/
 
-.container-wrap{
-
+.container-wrap {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,15 +173,14 @@ body {
   height: 20%;
   background-color: aliceblue;
   border: solid #8da28e;
-  margin-top: 80px
+  margin-top: 80px;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 0.3fr 1fr 1fr ;
+  grid-template-columns: 0.3fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 
-  
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -194,14 +193,13 @@ body {
 .name {
   grid-area: name;
   display: flex;
-  justify-content:flex-start;
- 
+  justify-content: flex-start;
 }
 
-.TEXT-1, .Text-2, .Text-3{
+.TEXT-1,
+.Text-2,
+.Text-3 {
   display: flex;
-  
-
 }
 
 .ICON-1 {
@@ -238,8 +236,10 @@ body,
 
 /* For presentation only, no need to copy the code below */
 
-
-
 .Icons {
   width: 20px;
+}
+
+.link {
+  color: aliceblue;
 }
