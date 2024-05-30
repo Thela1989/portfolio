@@ -112,11 +112,13 @@ h4 {
 }
 
 /*contact*/
-.contact-text {
-  font-family: "JetBrains Mono", monospace;
-}
 
-.contact-name {
+
+.name {
   font-family: "Fondamento", Static;
   font-size: 20px;
+}
+
+.TEXT-1, .Text-2, .Text-3{
+  font-family: "JetBrains Mono", monospace; ;
 }

@@ -11,6 +11,13 @@ body {
 .wrapper {
   height: 100%;
   width: 100%;
+
+}
+
+.wrap-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 /*huvudrubrik*/
 .header {
@@ -157,64 +164,82 @@ body {
 
 /*Här börjar css för kontakt*/
 
-.contact-container {
-  width: 300px;
-  height: 500px;
+.container-wrap{
 
-  display: grid;
-  grid-template-columns: 0.1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-
-  .div1 {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-  .div2 {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-  .div3 {
-    grid-area: 1 / 2 / 2 / 3;
-  }
-}
-
-.contact-card {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 270px;
+  width: 50%;
+  height: 20%;
   background-color: aliceblue;
   border: solid #8da28e;
+  margin-top: 80px
 }
-.contact-text {
+
+.container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". name name"
+    "ICON-1 TEXT-1 TEXT-1"
+    "ICON-2 Text-2 Text-2"
+    "ICON-3 Text-3 Text-3";
 }
-.icons {
-  width: 100px;
+
+.name {
+  grid-area: name;
+  display: flex;
+  justify-content:flex-start;
+ 
 }
-.call-icon {
+
+.TEXT-1, .Text-2, .Text-3{
+  display: flex;
+  
+
+}
+
+.ICON-1 {
+  grid-area: ICON-1;
   width: 20px;
-  height: 20px;
-  padding-top: 200px;
 }
 
-.email {
-  width: 400px;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 250px;
-}
-.mail-icon {
-  width: 50px;
-  height: 40px;
-  display: flex;
-  flex-direction: row;
+.ICON-2 {
+  grid-area: ICON-2;
 }
 
-.mail-text {
-  width: 400px;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
+.ICON-3 {
+  grid-area: ICON-3;
+}
+
+.TEXT-1 {
+  grid-area: TEXT-1;
+}
+
+.Text-2 {
+  grid-area: Text-2;
+}
+
+.Text-3 {
+  grid-area: Text-3;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+}
+
+/* For presentation only, no need to copy the code below */
+
+
+
+.Icons {
+  width: 20px;
 }
