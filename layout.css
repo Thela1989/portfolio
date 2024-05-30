@@ -71,10 +71,10 @@ body {
 }
 
 .profile-aboutme {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   margin-top: 20px;
-  border-radius: 99px;
+  border-radius: 140px;
   border-style: double;
   border-color: #8da28e;
   border-width: thick;
@@ -155,7 +155,7 @@ body {
 }
 
 .Certifikat {
-  width: 280px;
+  width: 250px;
 
   border: outset 10px;
 }
