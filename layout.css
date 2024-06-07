@@ -30,6 +30,8 @@ body {
   align-items: center;
 }
 
+/*lista över project*/
+
 .project-list {
   display: flex;
   justify-content: center;
@@ -136,6 +138,19 @@ body {
 #todo-icon {
   padding-bottom: 40px;
 }
+/*button container för git button*/
+.project-button{
+
+  height: 200px;
+ 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
 
 /*text på knapp*/
 
@@ -238,6 +253,7 @@ body,
 
 .Icons {
   width: 20px;
+  padding-left: 20px;
 }
 
 .link {

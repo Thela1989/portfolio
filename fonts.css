@@ -97,7 +97,7 @@ h4 {
 }
 
 /*project*/
-.project-text {
+.project-text, .gtb-text {
   font-size: 18px;
   font-family: "Chakra Petch", Static;
 }
