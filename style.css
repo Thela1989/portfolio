@@ -146,10 +146,8 @@ body {
   width: 75;
   margin-left: 75px;
 }
-.container .content .right-side .topic .image-container {
-  display: flex;
-  position: relative;
-}
+
+
 .flowerai {
   position: absolute;
 
@@ -249,15 +247,8 @@ body {
   text-align: center;
 }
 
-.image-container {
-  padding-left: rem;
-  padding-right: 2rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  margin-top: 2em;
-  margin-left: px;
-}
+
+
 .frame {
   display: flex;
   flex-direction: row;

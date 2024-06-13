@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+
+.main {
+  font-size: 50px;
+  font-family: "Fondamento", Static;
+}
+.header {
+  color: #8da28e;
+
+  text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.vertical-line {
+  width: 400px;
+  height: 2px;
+  background-color: rgb(235, 233, 233);
+}
+
+.second {
+  font-family: "Fondamento", Static;
+  font-size: 40px;
+}
+
+.cta-btn {
+  font-family: "Fondamento", Static;
+}
+
+.text-container {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row899d8b;
+  color: #ffffff;
+}
+
+#last-letterr {
+  color: #899d8b;
+  font-family: "cutive mono", static;
+}
+
+.aboutme-text {
+  font-size: 18px;
+  font-family: "Josefin slab";
+
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: bold;
+  color: 8da28e;
+}
+.head-project {
+  font-family: "JetBrains Mono", monospace;
+  color: aliceblue;
+  text-shadow: 4px 2px 0px rgba(0, 0, 0, 0.6);
+}
+.front-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 25px;
+  font-family: "Cutive Mono", Static;
+  color: #8da28e;
+  font-weight: bolder;
+
+  
+}
+
+/*rubrik för projekten*/
+.header-project {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Cutive Mono", Static;
+}
+
+h4 {
+  font-family: "Chakra Petch", Static;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-github {
+  color: aliceblue;
+
+  padding: 10px;
+}
+
+.cta-btn {
+  color: #aaa190;
+}
+
+/*project*/
+.project-text, .gtb-text {
+  font-size: 18px;
+  font-family: "Chakra Petch", Static;
+}
+
+/*CV*/
+.cert-frame {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 25px;
+  color: #8da28e;
+  text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+/*contact*/
+
+
+.name {
+  font-family: "Fondamento", Static;
+  font-size: 20px;
+}
+
+.TEXT-1, .Text-2, .Text-3{
+  font-family: "JetBrains Mono", monospace; ;
+}

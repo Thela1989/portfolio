@@ -14,7 +14,21 @@
       rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="style.css" />
+      href="layout.css" />
+    <link
+      rel="stylesheet"
+      href="fonts.css" />
+    <link
+      rel="stylesheet"
+      href="color.css" />
+    <link
+      rel="stylesheet"
+      href="buttons.css" />
+
+    <!--
+    <link
+      rel="stylesheet"
+      href="style.css" />-->
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com" />
@@ -44,9 +58,14 @@
   <body>
     <div class="wrapper">
       <div class="header">
-        <h1 class="main">Therese Lagerhäll</h1>
-        <h2 class="second">Portfolio</h2>
+        <div class="title">
+          <h1 class="main">Therese Lagerhäll</h1>
+          <div class="vertical-line"></div>
+          <h2 class="second">Portfolio</h2>
+        </div>
       </div>
+
+      <!--Här skrivs alla buttons-->
       <div class="cta-container">
         <button
           class="cta-btn"
@@ -75,18 +94,25 @@
         </button>
       </div>
 
-      <div class="profilepicture">
-        <img
-          class="profile"
-          src="bilder/profilepicture.png"
-          alt="profile picture" />
+      <div class="front-text">
+        <p>
+          Jag är en
+          <span class="highlight">
+            <ins>kreativ</ins></span
+          >
+          utvecklare
+        </p>
       </div>
-    </div>
-    <div class="image-container">
-      <img
-        class="flowerai"
-        src="bilder/flowerai.jpg"
-        alt="image of a flower" />
+
+      <!--här skrivs kod för profilbild-->
+
+      <!--här skrivs kod för bild på första sidan-->
+      <div class="image-container-fron">
+        <img
+          class="profilepicture"
+          src="bilder/profilbild-1 copy2.jpg"
+          alt="my profilepicture" />
+      </div>
     </div>
   </body>
 </html>
