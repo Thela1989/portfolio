@@ -1,144 +1,148 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-* {
-  font-family: "Poppins", sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap");
+/*fonts  */
 body {
-  background-color: #000000;
+  background-color: #3d3c49;
+  padding: 0;
+  margin: 0;
   width: 100vw;
-  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
 }
-/*styles for mobile*/
-@media only screen and (max-width: 768px) {
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #100e0e;
+  width: 100%;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  background-color: #3d3c49;
+  border-bottom: 2px solid #ec407a;
+}
+
+.nav-name {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  padding-left: 20px;
+
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding-left: 60%;
+}
+
+a {
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 24px;
+
+  justify-content: flex-end;
+  flex-grow: unset;
+  color: aliceblue;
+}
+a:hover {
+  color: #ec407a;
+}
+
+.container1 {
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 300px;
+
+  font-size: 30px;
+  border-bottom: 4px solid #ec407a;
+}
+/*here starts section 2*/
+.container2 {
+  background-color: #f2f2f2;
+  width: 30%;
+  margin-top: 3em;
+}
+.aboutme {
+  color: #100e0e;
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.section1 {
+  display: flex;
+  width: 400px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+#title-2 {
+  font-size: 40px;
+}
+.section2 {
+  display: flex;
+  justify-content: end;
+}
+
+span {
+  color: #ec407a;
+}
+
+.image-container {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.profile-picture {
+  padding: 0;
+
+  display: flex;
+  justify-content: end;
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 480px) {
   body {
-    height: auto;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-    color: #fff;
-
-    font-family: "Open Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    width: 100vw;
-
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #navbar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-
-  #link-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    height: 32px;
-
-    list-style: none;
-  }
-
-  a {
-    padding: 10px;
-    color: aliceblue;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #ec407a;
-    text-decoration: underline;
-  }
-
-  header {
-    justify-content: center;
-    flex-direction: column-reverse;
-    padding-top: 20px;
-
-    font-size: 13px;
-  }
-  span {
-    color: #ec407a;
-  }
-
-  .Header,
-  #projects-header {
-    border: solid#ec407a 2px;
-    border-radius: 10px;
-    padding: 10px;
-  }
-  #profile-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-
-    flex-direction: column;
-  }
-  .iAm-text {
-    font-size: 20px;
-  }
-
-  #icon-hey {
-    width: 40px;
-    height: 40px;
-  }
-  .hey-text {
-    display: flex;
-    align-items: center;
-  }
-  .highlight {
-    color: #ec407a;
-  }
-  h2 {
-    margin: 20px;
-    font-size: 38px;
-  }
-  #profile-image {
-    width: 300px;
-    border-bottom: #ec407a solid;
-  }
-
-  #aboutMe-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 200px;
-    margin-bottom: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  #About-me-header {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  #about-me-text {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: black;
-    border-color: #ec407a;
-    border-radius: 30px;
-    border-style: solid;
-  }
-
-  .project-image {
-    border-color: #ec407a;
-    border-style: inset;
-    object-fit: cover;
-    width: 160px;
-    height: 150px;
-    margin: 7px;
+    width: 100;
   }
 }
