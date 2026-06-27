@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Hej, jag heter Therese!",
+    "text": "Jag är frontendutvecklare med passion för att skapa intuitiva och användarvänliga webbupplevelser. Jag kombinerar kreativitet, problemlösning och moderna tekniker för att omvandla idéer till praktiska digitala lösningar.",
+    "downloadCv": "Ladda ner CV",
+    "contact": "Kontakta mig"
+  },
+  "nav": {
+    "home": "Hem",
+    "about": "Om mig",
+    "projects": "Projekt",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "title": "Om mig",
+    "text": "Kunskap inom React, TypeScript, JavaScript, HTML och CSS. Brinner för att skapa responsiva och användarvänliga webbapplikationer med ren kod och genomtänkt design."
+  },
+  "skills": {
+    "title": "Kompetenser"
+  },
+  "projects": {
+    "title": "Projekt",
+
+    "previous": "Visa föregående projekt",
+    "next": "Visa nästa projekt",
+    "mobileNavigation": "Mobil projektnavigering",
+
+    "petsApp": {
+      "title": "Husdjurskollen",
+      "description": "En fullstack-applikation för att hantera hälsouppgifter, vaccinationer och den dagliga skötseln av husdjur. Byggd med React, TypeScript, Node.js och PostgreSQL."
+    },
+
+    "restaurant": {
+      "title": "Restaurangwebbplats",
+      "description": "En responsiv restaurangwebbplats byggd med HTML och CSS, med fokus på ren design, användbarhet och en bra upplevelse på både dator och mobil."
+    },
+
+    "gaming": {
+      "title": "Spelhemsida",
+      "description": "En responsiv gamingwebbplats byggd med HTML och CSS, med fokus på visuell design, layout och en engagerande användarupplevelse."
+    },
+
+    "weatherApp": {
+      "title": "Väderapp",
+      "description": "En responsiv väderapplikation som använder ett externt API för att visa aktuellt väder och en femdygnsprognos. Byggd med JavaScript och REST API."
+    },
+
+    "movieAppJavascript": {
+      "title": "Movie App (JavaScript)",
+      "description": "En responsiv filmapplikation byggd med JavaScript som använder ett film-API för att visa filminformation och sökresultat."
+    },
+    "movieAppReact": {
+      "title": "Movie App (React & TypeScript)",
+      "description": "En responsiv filmapplikation byggd med React och TypeScript, med filmsökning, detaljerad filminformation och möjlighet att spara favoritfilmer."
+    }
+  },
+  "contacts": {
+    "title": "Kontakt",
+
+    "email": "E-post"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "title": "Hello, I'm Therese!",
+    "text": "I'm a Front-End Developer passionate about creating intuitive, user-friendly web experiences. I combine creativity, problem-solving, and modern technologies to turn ideas into practical digital solutions.",
+    "downloadCv": "Download CV",
+    "contact": "Contact me"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About",
+    "text": "Skilled in React, TypeScript, JavaScript, HTML, and CSS. Passionate about building responsive, user-friendly web applications with clean code and thoughtful design."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "projects": {
+    "title": "Projects",
+    "petsApp": {
+      "title": "Pets App",
+      "description": "A full-stack pet management application for tracking health records, vaccinations, and daily pet care. Built with React, TypeScript, Node.js, and PostgreSQL."
+    },
+
+    "restaurant": {
+      "title": "Restaurant Website",
+      "description": "A responsive restaurant website built with HTML and CSS, focusing on clean design, usability, and an enjoyable experience on both desktop and mobile devices."
+    },
+
+    "gaming": {
+      "title": "Gaming Website",
+      "description": "A responsive gaming website built with HTML and CSS, focusing on visual design, layout structure, and an engaging user experience."
+    },
+    "weatherApp": {
+      "title": "Weather App",
+      "description": "A responsive weather application that uses an external API to display current weather conditions and a five-day forecast. Built with JavaScript and REST API."
+    },
+
+    "movieAppJavascript": {
+      "title": "Movie App (Javascript)",
+      "description": "A responsive movie application built with JavaScript that integrates a movie API to display movie information and search results."
+    },
+    "movieAppReact": {
+      "title": "Movie App (React & Typescript)",
+      "description": "A responsive movie application built with React and TypeScript, featuring movie search, detailed movie information, and the ability to save favorite movies."
+    }
+  },
+  "contacts": {
+    "title": "Contact",
+
+    "email": "Email"
+  }
+}
