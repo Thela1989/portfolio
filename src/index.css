@@ -557,7 +557,11 @@ a.flex gap-6 flex-wrap justify-center {
 }
 
 .carousel-dot.is-active {
-  background: linear-gradient(135deg, rgba(92, 56, 185, 0.95), rgba(109, 72, 220, 0.88));
+  background: linear-gradient(
+    135deg,
+    rgba(92, 56, 185, 0.95),
+    rgba(109, 72, 220, 0.88)
+  );
   transform: scale(1.2);
   box-shadow: 0 0 14px rgba(92, 56, 185, 0.3);
 }
